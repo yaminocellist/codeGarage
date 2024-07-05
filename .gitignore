@@ -1,2 +1,3 @@
-FileAfterProcessing/
+FileAfterProcessing/*.*
+FileForProcessing/*.*
 *.DS_STORE
