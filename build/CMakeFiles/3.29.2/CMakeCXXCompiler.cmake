@@ -87,6 +87,6 @@ endif()
 
 set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1;/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include;/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include")
 set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "c++")
-set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "/usr/local/Cellar/flex/2.6.4_2/lib;/Users/metron_fanxin_sun/Playground/root-parallel-study")
+set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "/usr/local/Cellar/flex/2.6.4_2/lib;/Users/metron_fanxin_sun/Playground/codeGarage")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")
 set(CMAKE_CXX_COMPILER_CLANG_RESOURCE_DIR "")
