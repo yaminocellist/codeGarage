@@ -3,4 +3,6 @@
 ```bash
 mkdir build && cd build
 cmake .. && make
+
+git rm -r --cached build
 ```
