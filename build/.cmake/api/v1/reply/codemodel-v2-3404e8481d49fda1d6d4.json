@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ROOT_MT",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "MTTH1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MTTH1-3dc68acbbb75c9e4f777.json",
+					"name" : "MTTH1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ROOT_MT::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ROOT_MT-0bd2d0f4ac3c88a5bf3f.json",
+					"name" : "ROOT_MT",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ROOT_MT2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ROOT_MT2-088c7080ddf3b7030491.json",
+					"name" : "ROOT_MT2",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/metron_fanxin_sun/Playground/codeGarage/build",
+		"source" : "/Users/metron_fanxin_sun/Playground/codeGarage"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
