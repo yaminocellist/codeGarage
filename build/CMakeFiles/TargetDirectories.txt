@@ -1,0 +1,5 @@
+/Users/metron_fanxin_sun/Playground/root-parallel-study/build/CMakeFiles/ROOT_MT.dir
+/Users/metron_fanxin_sun/Playground/root-parallel-study/build/CMakeFiles/ROOT_MT2.dir
+/Users/metron_fanxin_sun/Playground/root-parallel-study/build/CMakeFiles/MTTH1.dir
+/Users/metron_fanxin_sun/Playground/root-parallel-study/build/CMakeFiles/edit_cache.dir
+/Users/metron_fanxin_sun/Playground/root-parallel-study/build/CMakeFiles/rebuild_cache.dir
