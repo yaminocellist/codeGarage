@@ -1,5 +1,0 @@
-/Users/metron_fanxin_sun/Playground/codeGarage/build/CMakeFiles/ROOT_MT.dir
-/Users/metron_fanxin_sun/Playground/codeGarage/build/CMakeFiles/ROOT_MT2.dir
-/Users/metron_fanxin_sun/Playground/codeGarage/build/CMakeFiles/MTTH1.dir
-/Users/metron_fanxin_sun/Playground/codeGarage/build/CMakeFiles/edit_cache.dir
-/Users/metron_fanxin_sun/Playground/codeGarage/build/CMakeFiles/rebuild_cache.dir
