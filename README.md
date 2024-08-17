@@ -6,3 +6,10 @@ cmake .. && make
 
 git rm -r --cached build
 ```
+
+
+# Some Dependencies
+
+```bash
+brew install nlohmann-json
+```
