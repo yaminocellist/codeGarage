@@ -2,12 +2,14 @@
 #include <cmath>
 #include <vector>
 
+int divider;
+
 long long f(long long x) {
-    return (x + 1) * x * (2 * x + 1) / 6;
+    return (x + 1) * x / 2;
 }
 
 long long solve_ni(long long n, long long prev_ni) {
-    long long target = f(prev_ni) + (n + 1) * n * (2 * n + 1) / 48;
+    long long target = f(prev_ni) + (n + 1) * n / (2*divider);
     long long left = prev_ni, right = n;
     
     while (left <= right) {
@@ -40,7 +42,6 @@ std::vector<long long> solve_all_ni(long long n, int count) {
 
 int main() {
     long long n;
-    int divider;
     std::cout << "Enter the value of n: ";
     std::cin >> n;
     std::cout << "Enter the number of dividers to calculate:";
