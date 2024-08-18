@@ -1,9 +1,24 @@
 #include <iostream>
+#include <fstream>
 #include <cmath>
 #include <vector>
 
-int divider;
+void writeToCsv(const std::vector<int>& vec, const std::string& filename) {
+    std::ofstream file(filename);
+    if (!file.is_open()) {
+        std::cerr << "Failed to open file: " << filename << std::endl;
+        return;
+    }
+    
+    for (size_t i = 0; i < vec.size(); ++i) {
+        file << vec[i];
+        if (i < vec.size() - 1) file << ",";
+    }
+    
+    file.close();
+}
 
+int divider;
 long long f(long long x) {
     return (x + 1) * x / 2;
 }
@@ -52,6 +67,20 @@ int main() {
     for (int i = 0; i < solutions.size(); ++i) {
         std::cout << "The closest integer solution for n" << i+1 << " is: " << solutions[i] << std::endl;
     }
-    
+    std::vector<int> boundaries;
+    for (int i = 0; i < solutions.size(); i++) {
+        if (i == 0) {
+            std::cout << "The " << i << "th range is: " << 0 << "," << n - solutions[divider-2]-1 << std::endl;
+            boundaries.push_back(0);    boundaries.push_back(n - solutions[divider-2]-1);
+        }
+        else {
+            std::cout << "The " << i << "th range is: " << n-solutions[divider-i-1] << "," << n-solutions[divider-i-2]-1<< std::endl;
+            boundaries.push_back(n-solutions[divider-i-1]);
+            boundaries.push_back(n-solutions[divider-i-2]-1);
+        }
+    }
+    std::cout << "The last range is: " << n-solutions[0] << "," << n-1 << std::endl;
+    boundaries.push_back(n-solutions[0]);   boundaries.push_back(n-1);
+    writeToCsv(boundaries, "boundaries.csv");
     return 0;
 }
