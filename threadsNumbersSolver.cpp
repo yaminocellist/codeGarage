@@ -55,12 +55,14 @@ std::vector<long long> solve_all_ni(long long n, int count) {
     return result;
 }
 
-int main() {
+int main(int argc, char *argv[]) {
     long long n;
-    std::cout << "Enter the value of n: ";
-    std::cin >> n;
-    std::cout << "Enter the number of dividers to calculate:";
-    std::cin >> divider;
+    // std::cout << "Enter the value of n: ";
+    // std::cin >> n;
+    // std::cout << "Enter the number of dividers to calculate:";
+    // std::cin >> divider;
+    n = std::stoi(argv[1]);
+    divider = std::stoi(argv[2]);
     
     std::vector<long long> solutions = solve_all_ni(n, 7);
     
