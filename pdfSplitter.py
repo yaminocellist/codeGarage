@@ -18,5 +18,6 @@ def split_pdf(file, directory, ranges):
 
 # Define the page ranges for each part
 # ranges = [(0, 376), (376, 606), (606, 788), (788, 1162)]
-ranges = [(0, 162), (162, 334), (334, 525)]
-split_pdf('FilesForProcessing/Wesley_2004.pdf', 'FilesAfterProcessing', ranges)
+# ranges = [(0, 162), (162, 334), (334, 525)]
+ranges = [(0, 410), (410, 727)]
+split_pdf('FilesForProcessing/a.pdf', 'FilesAfterProcessing', ranges)
