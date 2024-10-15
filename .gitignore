@@ -3,3 +3,4 @@ build/
 *.csv
 FilesAfterProcessing
 FilesForProcessing
+.vscode
