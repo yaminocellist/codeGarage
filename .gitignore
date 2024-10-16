@@ -4,3 +4,4 @@ build/
 FilesAfterProcessing
 FilesForProcessing
 .vscode
+*.cpp
