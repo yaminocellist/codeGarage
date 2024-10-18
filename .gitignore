@@ -3,5 +3,5 @@ build/
 *.csv
 FilesAfterProcessing
 FilesForProcessing
-.vscode
+.vscode/*.*
 *.cpp
